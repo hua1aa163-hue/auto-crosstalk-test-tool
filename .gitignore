@@ -1,0 +1,31 @@
+# Visual Studio and .NET build output
+.vs/
+**/[Bb]in/
+**/[Oo]bj/
+**/[Pp]ublish/
+**/[Aa]rtifacts/
+[Tt]est[Rr]esults/
+
+# Historical/local copies and generated review output
+.00备份/
+protocol-render/
+ui-check.png
+
+# User- and machine-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Local Codex state and logs
+.agents/
+.codex/
+*.log
+
